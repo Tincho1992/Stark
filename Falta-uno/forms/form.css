@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+@media only screen and (min-width: 390px) and (max-width: 844px) {
+    /* Dimension: iphone12pro */
+
+    body,html{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        display: flex;
+        background-image: url(/multimedia/portada-usuario.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .form-register{
+        display:block;
+        background: rgb(0, 0, 0, 0.7);
+        border:solid black 1px;
+        border-radius: 20px;
+        width: 300px;
+        color: white;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        text-shadow: 2px 2px 2px black;
+        margin-left: 45px;
+        margin-top: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    input{
+        display: flex;
+        margin-top: 5px;
+        margin-left: 60px;
+        height: 28px;
+    }
+
+    #birthday{
+        width: 175px;
+    }
+
+    input::placeholder{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    label {
+        margin-left: 60px;
+    }
+
+    #btn{
+        background-color: black;
+        color: white;
+        height: 50px;
+        width: 100px;
+        border-radius: 20px;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: 100px;
+        box-shadow: 2px 2px 2px white;
+    }
+
+    
+}

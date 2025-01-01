@@ -1,0 +1,29 @@
+
+@media only screen and (min-width: 430px) and (max-width: 932px) {
+    /* Dimension: iphone14pro-max */
+
+    body,html{
+        box-sizing: border-box;
+        margin: 0;
+        border: 0;
+    }
+
+    body{
+
+        display: flex;
+        background: url(/multimedia/fondo-app-.jpg) fixed no-repeat center center;
+        background-size: cover;
+        
+    }
+
+    h1{
+        font-family: "Rubik Dirt";   
+        font-weight: 500;   
+        font-style: normal;
+        font-style: italic;
+        color: white;
+    }
+
+
+    
+};

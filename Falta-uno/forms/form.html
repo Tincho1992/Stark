@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/forms/form.css">
+    <link rel="icon" href="/multimedia/icono-app.png" >
+    <title>Hoy se juega</title>
+</head>
+
+<body>
+    
+<div class="form-register">
+        <form action="/usuarios-registrados/users-register.html" method="post">
+                <label>Nombre:<input type="text" name="data" id="name" placeholder="Martin" required></label> <br>
+                <label>Apellido:<input type="text" name="data" id="surname" placeholder="Martinez" required></label> <br>
+                <label>Apodo:<input type="text" name="data" id="nickname" placeholder="Tincho" required></label> <br>
+                <label>Categoria:<input type="date" name="data" id="birthday"required></label> <br>
+                <label>Edad:<input type="text" name="data" id="age" placeholder="30 años" maxlength="2" required></label> <br>
+                <label>Email:<input type="email" name="data" id="email" placeholder="yoestoy@mail.com" required></label> <br>
+                <label>Teléfono:<input type="text" name="data" id="tel" placeholder="(+54)1122334455" required></label> <br>
+
+            <button type="button" onclick="createAccount()" id="btn">Crear</button>
+        </form>
+    </div>
+
+<script src="/forms/form.js"></script>
+</body>
